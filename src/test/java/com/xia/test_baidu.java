@@ -27,12 +27,12 @@ public class test_baidu {
         driver.close();
     }
 
-    @Test(description = "错误")
+    /*@Test(description = "错误")
     public void test1(){
         Assert.fail("错误");
-    }
+    }*/
 
-    @Test(description = "错误")
+    @Test(description = "正确")
     public void test2(){
         Assert.assertTrue(true);
     }
